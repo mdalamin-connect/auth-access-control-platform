@@ -166,3 +166,64 @@ npm run build
 ```bash
 php artisan serve
 ```
+
+### 🐧 Linux / Ubuntu Setup
+#### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/mdalamin-connect/enterprise-erp-platform.git
+cd enterprise-erp-platform
+```
+#### 2️⃣ Install PHP Extensions
+```bash
+sudo apt update
+sudo apt install php php-mysql php-xml php-mbstring php-curl php-zip unzip
+```
+#### 3️⃣ Install Dependencies
+```bash
+composer install
+npm install
+```
+#### 4️⃣ Environment Setup
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+#### 5️⃣ Database Setup
+```bash
+mysql -u root -p
+CREATE DATABASE enterprise_erp;
+```
+#### 6️⃣ Build Frontend Assets
+```bash
+npm run build
+```
+#### 7️⃣ Run Server
+```bash
+php artisan serve
+http://127.0.0.1:8000
+```
+
+### 🤝 Connect With Me
+
+<p align="center">
+<a href="https://www.linkedin.com/in/mdalamin-connect/">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+<a href="mailto:mdalamin.connect@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail"/>
+</a>
+</p>
+
+
+### 👨‍💻 Author
+<h5>MUHAMMAD AL-AMIN</h5>
+Backend / Full-stack Developer | PHP & Laravel | Enterprise Systems
+
+
+<br>
+
+### 📄 License
+This project is open-source and licensed under the MIT License.
+
+---
