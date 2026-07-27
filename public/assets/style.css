@@ -1,0 +1,60 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Main dashboard container */
+main {
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Section headings */
+section h2 {
+    margin-top: 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+/* Breadcrumb styling */
+.breadcrumbs {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li:not(:last-child):after {
+    content: '/';
+    margin: 0 5px;
+}
+
+.breadcrumbs li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumbs li a:hover {
+    text-decoration: underline;
+}
